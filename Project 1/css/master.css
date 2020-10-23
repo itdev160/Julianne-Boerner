@@ -1,0 +1,103 @@
+header{
+    font-size: x-large;
+    text-align: center;
+}
+
+#greeting, #date{
+    font-size: medium;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: auto 50px;
+    color: #555555;
+}
+
+h1{
+    background-color: rgb(97, 207, 235);
+}
+h2{
+    color: #555555;
+    background-color: #eeeeee;
+    font-size: 24px;
+    text-align: center;
+}
+
+ol li{
+    text-indent: 50px;
+}
+
+ol li:nth-child(1){
+    color: red;
+ }
+
+ ol li:nth-child(2){
+     color: blue;
+ }
+
+ol li:nth-child(3){
+     color: yellow;
+     text-shadow: 2px -2px grey;
+ }
+
+ol li:nth-child(4){
+     color: Green;
+ }
+
+ol li:nth-child(5){
+     color:orange;
+ }
+
+ol li:nth-child(6){
+     color: violet;
+ }
+
+
+ol li:nth-child(7){
+     color: gray;
+ }
+
+ol li:nth-child(8){
+     color: blue;
+ }
+
+ol li:nth-child(9){
+     color: black;
+ }
+
+ol li:nth-child(10){
+     color: Pink;
+ }
+
+ol li:nth-child(11){
+     color: maroon;
+ }
+
+ol li:nth-child(12){
+     color:teal;
+ }
+
+ol li:nth-child(13){
+     color: navy;
+ }
+
+ol li:nth-child(14){
+     color: green;
+ }
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table tr{
+    color: black;
+    text-align: center;
+    columns: center;
+}
+
+td no{
+    color: gray;
+    text-align: center;
+}
+
