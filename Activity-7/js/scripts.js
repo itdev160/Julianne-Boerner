@@ -58,7 +58,7 @@ function completeTask (event){
 
     // Find corresponding task in tasks array and update status
     for (var i = 0; 1 < tasks.length; i++) {
-        if (tasks[i] === id) {
+        if (tasks[i].id === id) {
             tasks[i].status = taskStatus.completed;
             break;
         }
